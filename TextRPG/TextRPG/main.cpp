@@ -31,6 +31,24 @@ int main()
 			cin.ignore(1024, '\n');
 			continue;
 		}
+
+		if (iMenu == MM_EXIT) 
+		{
+			break;
+		}
+
+		switch (iMenu)
+		{
+		case MM_MAP:
+			break;
+		case MM_STORE:
+			break;
+		case MM_INVENTORY:
+			break;
+		default:
+			cout << "Wrong Choice" << endl;
+			break;
+		}
 	}
 
 	return 0;
